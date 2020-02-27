@@ -160,6 +160,8 @@ footer{
 
 /* second page stuff */
 .top-banner{
+    width: 100%;
+    height: auto;
 	padding: 1% 0;
 }
 
@@ -285,6 +287,20 @@ footer{
         height: auto;
         padding: 0% 0%;
     }
+
+    /* SERVICES PAGE STYLING*/
+    .top-banner img {
+        width: 100%;
+        height: auto;
+        padding: 3% 0%;
+    }
+    
+    .bot-info img {
+        width: 350px;
+        height: auto;
+        padding: 0% 0%;
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -346,5 +362,42 @@ footer{
         width: 100%;
         margin: 8% 0;
     }
+
+    /* SERVICES PAGE STYLING*/
+    .top-banner img {
+        width: 100%;
+        height: auto;
+        padding: 3% 0%;
+    }
+    
+    
+    .mid-boxes{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .mid-boxes div{
+        width: auto;
+    }
+
+    .bot-info{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bot-info div{
+        padding: 2% 0;
+    }
+
+
+    .bot-info div img {
+        width: 300px;
+        height: auto;
+        padding: 0% 0%;
+    }
+
+
 
 }
